@@ -1,0 +1,22 @@
+.navigation-bar {
+    background-color: #34495e;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navigation-bar nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .navigation-bar nav a:hover {
+    color: #1abc9c;
+  }
+  

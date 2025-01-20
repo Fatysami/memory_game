@@ -1,0 +1,92 @@
+.game-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .game-area {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .time-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Permet d'afficher les éléments l'un en dessous de l'autre */
+    gap: 10px; /* Espacement entre le temps et les mouvements */
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+  .info-text {
+    background-color: #34495e; /* Fond gris-bleu */
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 150px; /* Largeur fixe */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Optionnel : pour aligner le timer à la même hauteur que les mouvements */
+  .timer {
+    background-color: #34495e; /* Fond gris-bleu */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 150px; /* Largeur fixe */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+  }
+
+.message p {
+  font-size: 1.5rem;
+}
+
+.message button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.message button:hover {
+  transform: scale(1.05);
+  background-color: #16a085;
+}

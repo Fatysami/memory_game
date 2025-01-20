@@ -1,0 +1,29 @@
+.history-page {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .history-page h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .history-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-page li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-page p {
+    margin: 5px 0;
+  }
+  

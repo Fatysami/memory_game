@@ -1,0 +1,57 @@
+.settings-menu {
+    width: 280px;
+    background: #34495e;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .settings-menu h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #1abc9c;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .settings-menu button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #1abc9c;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .settings-menu button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Temps limite - style de la zone */
+  .time-limit {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .time-limit label {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .time-limit select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #1abc9c;
+    font-size: 1rem;
+  }
+  
